@@ -1,0 +1,15 @@
+one:
+  follower: adrian
+  followed: magda
+
+two:
+  follower: adrian
+  followed: emilia
+
+three:
+  follower: magda
+  followed: adrian
+
+four:
+  follower: natalia
+  followed: adrian

@@ -1,0 +1,23 @@
+orange:
+  content: "I just ate an orange!"
+  created_at: <%= 10.minutes.ago %>
+  user: adrian
+
+
+tau_manifesto:
+  content: "Check out the @tau site by @ard: http://tau.com"
+  created_at: <%= 3.years.ago %>
+  user: natalia
+
+cat_video:
+  content: "Sad cats are sad: http://youtu.be/ffdfd"
+  created_at: <%= 2.hours.ago %>
+  user: natalia
+
+
+<% 30.times do |n| %>
+micropost_<%= n %>:
+  content: <%= Faker::Lorem.sentence(5) %>
+  created_at: <%= 42.days.ago %>
+  user: natalia
+<% end %>
